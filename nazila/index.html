@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazilatul Paizah</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f4ff;
+            font-family: 'Roboto', sans-serif;
+        }
+        .header {
+            background-color: #001f3f;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 5px solid #ffdd57;
+        }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .softskills, .experience-item {
+            margin-bottom: 30px;
+        }
+        .softskills .card, .experience-item .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .softskills .card:hover, .experience-item .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .navbar {
+            background-color: #001f3f;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffdd57;
+        }
+        .btn-primary {
+            background-color: #001f3f;
+            border-color: #001f3f;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .btn-primary:hover {
+            background-color: #004080;
+            border-color: #004080;
+        }
+        footer {
+            background-color: #001f3f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-title {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info h5 {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Portofolio Nazilatul Paizah</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#softskills">Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Pengalaman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Portofolio Web Development</h1>
+        <img src="img/naz.jpg" alt="Profile Picture" class="profile-img">
+        <p>Nazilatul Paizah - Mahasiswa Sistem Informasi</p>
+        <p>Saya adalah mahasiswa Sistem Informasi yang berfokus pada pengembangan web dan memiliki minat besar dalam teknologi. Saya senang belajar hal baru dan bekerja dalam tim untuk mencapai tujuan bersama. Dengan pengalaman dalam berbagai proyek, saya memiliki keterampilan dalam pemrograman, desain antarmuka, dan manajemen waktu. Saya berkomitmen untuk terus belajar dan berkembang dalam bidang teknologi informasi.</p>
+    </div>
+
+    <div class="container mt-5" id="softskills">
+        <h2 class="section-title text-center">Soft Skills</h2>
+        <div class="row">
+            <div class="col-md-4 softskills">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><i class="fas fa-comments fa-2x"></i> Komunikasi</h5>
+                        <p class="card-text">Kemampuan untuk menyampaikan ide dan informasi secara efektif.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 softskills">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><i class="fas fa-users fa-2x"></i> Kerja Tim</h5>
+                        <p class="card-text">Kemampuan untuk bekerja dengan orang lain untuk mencapai tujuan bersama.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 softskills">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><i class="fas fa-lightbulb fa-2x"></i> Problem Solving</h5>
+                        <p class="card-text">Kemampuan untuk menganalisis masalah dan menemukan solusi yang tepat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="experience">
+        <h2 class="section-title text-center">Pengalaman</h2>
+        <div class="experience-item">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Anggota Komisi 3 Dewan Legislatif Mahasiswa</h5>
+                    <p><strong>Tanggal:</strong> Juni 2022 - Juli 2023</p>
+                    <p>Deskripsi: Sebagai anggota Komisi 3, saya terlibat dalam pengambilan keputusan yang berkaitan dengan kebijakan dan kegiatan mahasiswa. Tugas saya termasuk melakukan riset, menyusun rekomendasi, dan bekerja sama dengan anggota lainnya untuk memastikan suara mahasiswa terwakili.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contact mt-5" id="contact">
+        <h2 class="section-title text-center">Contact Me</h2>
+        <div class="contact-info text-center mb-4">
+            <h5>Anda dapat menghubungi saya melalui:</h5>
+            <p><i class="fas fa-envelope"></i> nazilatulfaizah011@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +62 895-6209-47342</p>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name">Nama:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Tuliskan pesan Anda" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nazilatul Paizah. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
